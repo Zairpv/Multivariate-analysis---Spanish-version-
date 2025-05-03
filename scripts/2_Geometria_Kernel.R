@@ -20,7 +20,7 @@ attach(datos_trigo)
 View(datos_trigo)
 
 # 3. TASKS ---------------------------------------------------------------------
-# a) Resumen de la base de datos: tabla multivariada de medias y desviaciones est?ndar por variedad.
+# a) Resumen de la base de datos: tabla multivariada de medias y desviaciones estandar por variedad.
 summary(datos_trigo)
 describeBy(datos_trigo[1:7],group = datos_trigo$variedad, digits = 4) #resumen agrupado por variedad
 
